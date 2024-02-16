@@ -15,7 +15,7 @@ args = arg_parser.parse_args()
 del arg_parser
 
 # Loading the needed data
-df = pd.read_csv('data/movies.csv').merge(pd.read_csv('data/ratings.csv'), on='movieId')
+df = pd.read_csv('movies.csv').merge(pd.read_csv('ratings.csv'), on='movieId')
 
 # Check for the movie name in the database
 movie_in_db = df['title'] == args.movie_name
