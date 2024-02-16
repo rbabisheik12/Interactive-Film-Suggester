@@ -7,7 +7,7 @@ body {
     width: 100%;
     overflow-x: hidden;
     color: #fff;
-    background: url('../img/back.jpg');
+    background: url('back.jpg');
     background-size: cover;
     background-position: center;
 }
